@@ -1,7 +1,8 @@
 # Vim Timestamp
 
 ## Description
-add description
+This is a filetype plugin for timestamping .vim files.
+
 
 ## Installation
 ```bash
