@@ -1,5 +1,7 @@
 # Vim Timestamp
-A filetype plugin for timestamping .vim files. 
+A filetype plugin for timestamping .vim files. It does only 2 things: 
+* insert a timestamp on demand;
+* update a timestamp, on demand or automatically when a .vim file is saved.  
 
 ## Installation
 [Pathogen](https://github.com/tpope/vim-pathogen)
@@ -7,6 +9,7 @@ A filetype plugin for timestamping .vim files.
 cd ~/.vim/bundle
 git clone https://github.com/sgolitsynskiy/vim-timestamp.git
 ```
+
 ## Usage
 To add a new timestamp, execute the `:TimestampInsert` command.
 To update an existing timestamp:
@@ -31,6 +34,10 @@ For example, the current format is `%Y %b %d %X %Z` which renders as `" Last Upd
 The corresponding regex is: `'\d\{4\} \a\{3\} \d\{2\} \d\{2\}:\d\{2\}:\d\{2\} [AP]M \a\+'` (note the single quotes and the escapes). 
 If you wanted to remove the timezone, you would remove `%Z` from your format variable AND the trailing ` \a\+` from your regex variable. 
 
+## Contributions
+There are many timestamp scripts that are language-agnostic and provide more options. I want to keep this one simple, lightweight, and specific to .vim files.  
+ 
+Suggestions and feedback are, certainly, [welcome](https://github.com/sgolitsynskiy/dotfiles/issues). 
 
 ## Credits 
 Inspired in part by a [more general plugin](http://www.vim.org/scripts/script.php?script_id=923) by [Gautam Iyer](http://www.math.cmu.edu/~gautam/sj)
