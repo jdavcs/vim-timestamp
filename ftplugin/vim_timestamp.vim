@@ -4,8 +4,16 @@
 " File:         ftplugin/vim_timestamp.vim
 " Source:       https://github.com/sgolitsynskiy/vim-timestamp
 " License:      MIT
-" Last Updated: 2017 Aug 17 10:33:02 PM CDT
+" Last Updated: 2017 Aug 18 12:32:57 AM CDT
 " ----------------------------------------------------------------------
+
+" prevent from loading twice; to disable plugin uncomment next line
+"let g:vimtimestamp_loaded = 1
+if exists("g:vimtimestamp_loaded")
+  finish
+endif
+let g:vimtimestamp_loaded = 1
+
 
 " text that prefixes the timesamp (from start-of-line)
 let s:timestamp_prefix = "\" Last Updated: "
