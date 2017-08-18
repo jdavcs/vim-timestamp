@@ -37,10 +37,10 @@ If you wanted to remove the timezone, you would remove `%Z` from your format var
 ## Contributions
 There are many timestamp scripts that are language-agnostic and provide more options. I want to keep this one simple, lightweight, and specific to .vim files.  
  
-Suggestions and feedback are, certainly, [welcome](https://github.com/sgolitsynskiy/dotfiles/issues). 
+Suggestions and feedback are, certainly, [welcome](https://github.com/sgolitsynskiy/vim-timestamp/issues). 
 
 ## Credits 
 Inspired in part by a [more general plugin](http://www.vim.org/scripts/script.php?script_id=923) by [Gautam Iyer](http://www.math.cmu.edu/~gautam/sj)
 
 ## Licence
-[MIT](https://github.com/sgolitsynskiy/dotfiles/blob/master/LICENSE)
+[MIT](https://github.com/sgolitsynskiy/vim-timestamp/blob/master/LICENSE)
