@@ -22,7 +22,7 @@ Suggested mappings to add to your .vimrc:
 nnoremap <leader>ti :TimestampInsert<CR>
 nnoremap <leader>tu :TimestampUpdate<CR>
 ```
-You may also override the timestamp format by specifyiing these own global variables, like so:
+You may also override the timestamp format by specifyiing these global variables, like so:
 ```vim
 let g:timestamp_prefix = 'Last tinkering: '
 let g:timestamp_format = '%Y'
