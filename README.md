@@ -42,5 +42,5 @@ Suggestions and feedback are, certainly, [welcome](https://github.com/sgolitsyns
 ## Credits 
 Inspired in part by a [more general plugin](http://www.vim.org/scripts/script.php?script_id=923) by [Gautam Iyer](http://www.math.cmu.edu/~gautam/sj)
 
-## Licence
+## License
 [MIT](https://github.com/sgolitsynskiy/vim-timestamp/blob/master/LICENSE)
